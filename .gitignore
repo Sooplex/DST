@@ -1,0 +1,7 @@
+.DS_STORE
+.idea
+*.ckpt
+#result
+experiments/*
+*.out
+taming-transformers/*

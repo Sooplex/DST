@@ -1,0 +1,16 @@
+config:
+  experiment_name: "highway"
+  block: 
+    # - "output_block_3"
+    # - "output_block_4"
+    # - "output_block_5" 
+    # - "output_block_6"
+    - "output_block_7" 
+    # - "output_block_8"
+    # - "output_block_9"
+    # - "output_block_10"
+    # - "output_block_11" # the module name of the visualized features (e.g. "output_block_4", "input_block_7").
+  experiments_fit: # the list of the experiments to visualize the features for
+    - "highway"
+  experiments_transform: # the list of the experiments used for calculating the principal components
+    - "highway"

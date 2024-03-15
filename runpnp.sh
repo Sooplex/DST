@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python run_pnp.py --config configs/pnp/pnp-rs-highway.yaml > ./pca.out 2>&1

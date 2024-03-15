@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python run_features_pca_2.py --config configs/pnp/feature-pca-highway.yaml > ./pca.out 2>&1
